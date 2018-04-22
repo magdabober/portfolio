@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0px;
+    text-align: right;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 30px;
+}
+
+.menu-item a {
+    color: #1ac056;
+    text-decoration: none
+}
+
+#img {
+    height: 100vh;
+    background-image: url('../img/img/header-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+
+#second-header {
+    font-size: 40px;
+}
+.green {
+    color: #1ac056;
+    font-weight: 500;
+}
+
+#main-header {
+    font-size: 70px;
+    
+}
+.thin {
+    font-weight:300;
+}
+
+section h2 {
+    text-align: center;
+    margin:0;
+    padding-bottom: 30px;
+}
+.about {
+    width: 50%;
+    display: inline-block;
+    margin:0;
+    float: left;
+}
+section figure {
+    text-align: center;
+}
+
+#janek {
+    border: 10px solid whitesmoke;
+    border-radius: 5px; 
+}
+
+.about-text {
+    margin: 0;
+}
+
+#about-me {
+    padding: 40px;
+    background-color: #f9fcfe;
+}
+
+.clear {
+    clear: both;
+}
+
+#skills {
+    padding: 40px;
+    text-align: center;
+}
+
+.icons {
+    display: inline-block;
+    margin: 40px 60px;  
+}
+
+#portfolio {
+    padding: 40px;
+    text-align: center;
+}
+
+.skills-background {
+    height:300px;
+    width:33.3333%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+#skills-left {
+    background-image: url(../img/img/portfolio1.jpg);
+}
+
+#skills-middle {
+    background-image: url(../img/img/portfolio2.jpg);
+}
+
+#skills-right {
+    background-image: url(../img/img/portfolio3.jpg);
+}
+
+.mask {
+    height:100%;
+    transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    opacity: 0;
+}
+
+.border {
+    height: 100%;
+    position: relative;
+    border: 1px solid white;
+}
+
+.content {
+    color: white;
+    padding: 10px;
+    
+}
+.mask:hover {
+    opacity: 1;
+}
+
+#kontakt {
+    background-color: #213b50;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.kontakt-box {
+    float: left
+}
+
+#dane-kontaktowe {
+    width: 50%;
+}
+
+#kontakt-header {
+    text-align: left;
+    color: white;
+    font-size: 40px;
+}
+
+.kontakt-adres {
+    color: white;
+    font-style: normal;
+}
+
+.kontakt-adres a {
+    color: green;
+}
+
+.icons-media {
+    padding-top: 30px;
+}
+
+.media-links {
+    margin-right: 50px;
+}
+
+.fa-icon {
+    border: 1px solid white;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: white;
+}
+
+#formularz {
+    display: inline-block;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.form-inputs {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #465f78;
+    border: none;
+}
+
+#submit-button {
+    background-color: #1ac056;
+    width: 100px;
+    height: 40px;
+    color: white;
+}

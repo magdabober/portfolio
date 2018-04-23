@@ -25,7 +25,7 @@ nav ul {
 
 .menu-item {
     display: inline-block;
-    padding: 30px;
+    padding: 40px;
 }
 
 .menu-item a {
@@ -163,7 +163,7 @@ section figure {
 
 #kontakt {
     background-color: #213b50;
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
     width: 100%;
 }
 
@@ -195,7 +195,7 @@ section figure {
 }
 
 .media-links {
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .fa-icon {
@@ -205,6 +205,12 @@ section figure {
     width: 40px;
     text-align: center;
     color: white;
+    transition: all;
+}
+
+.fa-icon:hover {
+    color: #213b50;
+    background-color: white;
 }
 
 #formularz {
@@ -234,15 +240,25 @@ section figure {
     padding: 0;
     position: absolute;
     right: 0;
+    border: 1px solid white;
+    font-family: Lato;
+    font-weight: 400;
 }
 
 .footer {
     padding: 5px 40px;
-    background-color: #152331;;
+    background-color: #152331;
 }
 
 .footer-text {
     margin: 0;
     color: white;
+    display: inline-block;
+    width: 100%;
 }
 
+.nav-hamburger,
+#mobile-nav {
+    display: none;
+    
+}

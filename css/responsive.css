@@ -1,0 +1,71 @@
+@media all and (max-width: 768px) {
+    
+    .about {
+        width: 100%;
+    }
+    
+    #janek {
+        width: 100%;
+    }
+    .skills-background {
+        width: 100%;
+    }
+    
+    #dane-kontaktowe,
+    #formularz {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #kontakt-header {
+        text-align: center;
+    }
+    
+    .icons-media {
+        text-align: center;
+    }
+    
+    a.media-links {
+        margin: auto;
+    }
+    
+/*
+    .menu-item {
+        display:none;
+    }
+*/
+    nav ul,
+    [type="checkbox"] {
+        display: none;
+    }
+    
+    .hamburger {
+        padding: 15px 30px;
+        text-align: right;
+    }
+    
+    .nav-hamburger {
+        background-color: white;
+        display: inline-block;
+/*        position: fixed;*/
+/*        z-index: 9999;*/
+        width: 100%;
+        color: #1ac056;
+        text-align: right;
+    }
+    
+     nav [type="checkbox"]:checked + ul {
+        display: block;
+    }
+    
+    .menu-item {
+        display: block;
+    width: 50%;
+    margin-left: auto;
+        background-color: white;
+    }
+    
+    nav {
+        background: none;
+    }
+}
